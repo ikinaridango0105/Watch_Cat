@@ -7,9 +7,9 @@
 #include <HttpGs2200.h>  // GainSpan HTTP clientライブラリをインクルード
 #include <TelitWiFi.h>   // Telit WiFiモジュール用ライブラリをインクルード
 
-#define LINETOKEN "i3gqr7Zs3AFbsJsrdJrVV7FhcLQVEiDenodJWpT8scz"  //グループLINEトークン
-#define AP_SSID "iPhone (330)"
-#define PASSPHRASE "ovk7nnopm9q7f"
+#define LINETOKEN "YOUR_LINE_TOKEN"
+#define AP_SSID "YOUR_SSID"
+#define PASSPHRASE "YOUR_PASSPHRASE"
 #define CONSOLE_BAUDRATE 115200  // シリアル通信のボーレートを定義
 #define HTTP_SRVR_IP "notify-api.line.me"
 #define HTTP_PORT "443"               // HTTPSだから443
